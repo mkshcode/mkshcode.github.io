@@ -1,0 +1,182 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1em;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Barlow', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: auto;
+    padding: 60px 30px 60px 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 50px;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: 'Merriweather', sans-serif;
+}
+
+a {
+    color: #1A0DAB;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D782E8;
+    text-decoration: none;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+.header ul {
+    margin-top: 10px;
+}
+
+.header ul li {
+    display: inline;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.emoji {
+    font-size: 20px;
+}
+
+.emoji:hover {
+    opacity: .5;
+}
+
+.intro {
+    padding-bottom: 30px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 115%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+.updates h1 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+
+.updates h2 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1.0em;
+    margin-bottom: 5px;
+}
+
+ul li {
+    line-height: 115%;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.extra {
+    padding-top: 0px;
+}
+
+.next {
+    text-align: right;
+}
+
+
+
+.all {
+    margin-bottom: 30px;
+}
+
+.all h2 {
+    font-size: 1.2em;
+    line-height: 115%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.all .date {
+    font-style: italic;
+}
+
+
+
+#phs {
+    width: 150px;
+}
+
+#exporta {
+    width: 150px;
+}
+
+
+
+
+.music p {
+    margin: 15px;
+}
+
+.music ul {
+    text-align: center;
+}
+
+
+.music ul li {
+    display: inline-block;
+    margin: auto;
+    /* padding: 0; */
+}
+
+
+.music img:hover {
+    opacity: .5;
+}
+
+
+
+
+
+.contact ul li img {
+    width: 20px;
+}
+
+.contact img:hover {
+    opacity: .5;
+}
+
+.contact ul {
+    text-align: center;
+
+}
+
+.contact ul li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0;
+}
