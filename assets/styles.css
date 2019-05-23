@@ -180,3 +180,26 @@ ul li {
     margin: 0 5px;
     padding: 0;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        padding: 20px;
+    }
+
+    .header {
+        display: block;
+    }
+
+    ul li {
+        padding: 10px 0 10px 0;
+    }
+
+    iframe {
+        width: 300px;
+    }
+}
+
+
+
